@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>References Object</title>
+</head>
+<body>
+    <h1>References Object</h1>
+    <script>
+let number = 2;
+let number2 = 6;
+number2 = number;
+
+let name = {abc:'raje'};
+let name2 = name;
+name2.abc = 'Impossible'
+
+console.log('the 1st number is : ' + number);
+console.log('the 2nd number is : ' + number2);
+console.log('-----------------------------');
+console.log('the 1st name is: ' + name.abc);
+console.log('the 2nd name is: ' + name2.abc);
+
+    </script>
+</body>
+</html>
